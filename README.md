@@ -1,4 +1,4 @@
-# 🏬 Sistema de Vendas (POO em Java)
+# 🏬 Sistema de Vendas (POO em Java) - APS 1
 
 Sistema em Java para ler um arquivo **CSV** com vendas de uma loja e gerar **estatísticas gerais**, por **cliente** e por **produto**, aplicando conceitos de **POO**, **List** e **Map**.
 
