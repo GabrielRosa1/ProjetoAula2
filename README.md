@@ -1,6 +1,7 @@
 # 🏬 Sistema de Vendas (POO em Java) - APS 1
 
 Sistema em Java para ler um arquivo **CSV** com vendas de uma loja e gerar **estatísticas gerais**, por **cliente** e por **produto**, aplicando conceitos de **POO**, **List** e **Map**.
+* Não ocorreu o uso de IA para desenvolver esse trabalho (apenas para ajudar a escrever o ReadMe).
 
 ---
 
@@ -96,6 +97,5 @@ Saída esperada: relatório no console com os cálculos e estatísticas.
 
 * O `main` apenas **inicia o sistema** (sem lógica de negócio).
 * As estatísticas estão em classes responsáveis (ex: `SistemaVendas`/`Loja`).
-* Não ocorreu o uso de IA para desenvolver esse trabalho (apenas para ajudar a escrever o ReadMe).
 
 ---
