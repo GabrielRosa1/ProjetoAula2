@@ -53,4 +53,8 @@ public class Venda {
     public double getPrecoUnitario() {
         return precoUnitario;
     }
+
+    public Produto getProduto() {
+        return produto;
+    }
 }
