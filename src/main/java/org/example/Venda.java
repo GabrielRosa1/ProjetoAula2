@@ -42,4 +42,15 @@ public class Venda {
         return faturamentoTotal / totalVendas;
     }
 
+    public Cliente getCliente() {
+        return cliente;
+    }
+
+    public int getQuantidade() {
+        return quantidade;
+    }
+
+    public double getPrecoUnitario() {
+        return precoUnitario;
+    }
 }
