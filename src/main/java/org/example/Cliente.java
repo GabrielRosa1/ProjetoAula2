@@ -68,7 +68,7 @@ public class Cliente {
         HashMap<String, Cliente> porNome = hashmapClientes(vendas);
 
         for (Cliente c : porNome.values()) {
-            System.out.printf("Nome: %s %n Total Gasto: %.2f$ %n Quantidade de Compras: %s %n", c.getNome(), c.getTotalGasto(), c.getQuantidadeCompras());
+            System.out.printf("Nome: %s %n Total Gasto: %.2f$ %n Quantidade de Itens Comprados: %s %n", c.getNome(), c.getTotalGasto(), c.getQuantidadeCompras());
             System.out.println("=============================");
         }
     }

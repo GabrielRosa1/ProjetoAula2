@@ -86,7 +86,7 @@ public class Produto {
         HashMap<String, Produto> porNome = hashmapProdutos(vendas);
 
         for (Produto p : porNome.values()) {
-            System.out.printf("Nome: %s %n Total Vendido: %s %n Faturamento Total: %.2f$ %n", p.getNome(), p.getTotalVendido(), p.getFaturamento());
+            System.out.printf("Nome: %s %n Total de Itens Vendidos: %s %n Faturamento Total: %.2f$ %n", p.getNome(), p.getTotalVendido(), p.getFaturamento());
             System.out.println("=======================================");
         }
     }

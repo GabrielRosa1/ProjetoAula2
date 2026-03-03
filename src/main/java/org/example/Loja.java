@@ -17,7 +17,7 @@ public class Loja {
         System.out.println("===========Estatísticas por Cliente===========");
         System.out.printf("%n");
         System.out.println("=======Melhor  Cliente=======");
-        System.out.printf("Melhor Cliente (mais gastou) %n Nome: %s %n Total Gasto: %.2f$ %n Quantidade de Compras: %s %n",
+        System.out.printf("Melhor Cliente (mais gastou) %n Nome: %s %n Total Gasto: %.2f$ %n Quantidade de itens Comprados: %s %n",
                 Cliente.clienteMaisGastou(vendas).getNome(), Cliente.clienteMaisGastou(vendas).getTotalGasto(), Cliente.clienteMaisGastou(vendas).getQuantidadeCompras());
         System.out.println("=============================");
         System.out.printf("%n");
@@ -27,12 +27,12 @@ public class Loja {
         System.out.println("===========Estatísticas por Produto===========");
         System.out.printf("%n");
         System.out.println("=========Produto Mais Vendido==========");
-        System.out.printf("Nome: %s %n Total Vendido: %s %n Faturamento Total: %.2f$ %n",
+        System.out.printf("Nome: %s %n Total de Itens Vendidos: %s %n Faturamento Total: %.2f$ %n",
             Produto.maisVendido(vendas).getNome(), Produto.maisVendido(vendas).getTotalVendido(), Produto.maisVendido(vendas).getFaturamento());
         System.out.println("=======================================");
         System.out.printf("%n");
         System.out.println("=======Produto Maior Faturamento=======");
-        System.out.printf("Nome: %s %n Total Vendido: %s %n Faturamento Total: %.2f$ %n",
+        System.out.printf("Nome: %s %n Total de Itens Vendidos: %s %n Faturamento Total: %.2f$ %n",
                 Produto.maiorFaturamento(vendas).getNome(), Produto.maiorFaturamento(vendas).getTotalVendido(), Produto.maiorFaturamento(vendas).getFaturamento());
         System.out.println("=======================================");
         System.out.printf("%n");
